@@ -1,0 +1,35 @@
+global:
+    memo: metil#9407
+default_chain: gaia
+chains:
+  gaia:
+    key: GAIA
+    chain-id: GAIA
+    rpc-addr: http://94.130.200.205:23657
+    grpc-addr: http://94.130.200.205:23090
+    account-prefix: cosmos
+    keyring-backend: test
+    gas-adjustment: 1.2
+    gas-prices: 0.01uatom
+    key-directory: /root/.icq/keys
+    debug: true
+    timeout: 20s
+    block-timeout: ""
+    output-format: json
+    sign-mode: direct
+  stride:
+    key: stride
+    chain-id: STRIDE-TESTNET-2
+    rpc-addr: http://127.0.0.1:16657
+    grpc-addr: http://127.0.0.1:16090
+    account-prefix: stride
+    keyring-backend: test
+    gas-adjustment: 1.2
+    gas-prices: 0.01ustrd
+    key-directory: /root/.icq/keys
+    debug: true
+    timeout: 20s
+    block-timeout: ""
+    output-format: json
+    sign-mode: direct
+cl: {}

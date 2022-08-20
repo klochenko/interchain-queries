@@ -5,8 +5,8 @@ chains:
   gaia:
     key: GAIA
     chain-id: GAIA
-    rpc-addr: http://94.130.200.205:23657
-    grpc-addr: http://94.130.200.205:23090
+    rpc-addr: http://195.201.241.25:23657
+    grpc-addr: http://195.201.241.25:23090
     account-prefix: cosmos
     keyring-backend: test
     gas-adjustment: 1.2
@@ -19,7 +19,7 @@ chains:
     sign-mode: direct
   stride:
     key: stride
-    chain-id: STRIDE-TESTNET-2
+    chain-id: STRIDE-TESTNET-4
     rpc-addr: http://127.0.0.1:16657
     grpc-addr: http://127.0.0.1:16090
     account-prefix: stride
